@@ -1,0 +1,28 @@
+# CMake / C++ build products
+/build/
+/cmake-build-*/
+/out/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Makefile
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.dylib
+*.exe
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Captured RF datasets (keep them out of Git by default)
+*.iq
+*.cf32
+*.cs16
+*.sigmf-data
